@@ -51,3 +51,61 @@ header .sign-in a {
   justify-content: flex-end;
   display: flex;
 }
+
+#intro-section {
+padding: 1.25rem;
+background-color: lightgray;
+justify-content: space-between;
+}
+
+.intro {
+  flex: 1;
+  padding: 1.25rem;
+}
+
+.center {
+text-align: center;
+}
+
+.intro .image-container {
+display: flex;
+max-width: 60%;
+padding: 0 1%;
+}
+
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  display: block;
+  object-fit: cover;
+  max-width: 100%;
+}
+
+.intro .content {
+padding: 2.25rem;
+}
+
+.intro h1 {
+padding: 1.25rem;
+font-size: 48px;
+color: gray;
+font-weight: bold;
+}
+
+.intro h2 {
+padding: 1.25rem;
+font-size: 24px;
+color:gray;
+}
+
+.intro .start-here {
+
+}
+
+.intro .button {
+
+}
+
+
