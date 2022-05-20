@@ -55,11 +55,9 @@ header .sign-in a {
 #intro-section {
 padding: 1.25rem;
 background-color: lightgray;
-justify-content: space-between;
 }
 
-.intro {
-  flex: 1;
+#intro-section .intro {
   padding: 1.25rem;
 }
 
@@ -67,7 +65,7 @@ justify-content: space-between;
 text-align: center;
 }
 
-.intro .image-container {
+#intro-section .image-container {
 display: flex;
 max-width: 60%;
 padding: 0 1%;
@@ -83,8 +81,10 @@ padding: 0 1%;
   max-width: 100%;
 }
 
-.intro .content {
+#intro-section .content {
 padding: 2.25rem;
+color: gray;
+justify-content: flex-end;
 }
 
 .intro h1 {
